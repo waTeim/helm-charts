@@ -1,0 +1,53 @@
+apiVersion: v1
+entries:
+  eth-validator:
+  - annotations:
+      artifacthub.io/displayName: Ethereum Validator Stack (Kubernetes)
+      artifacthub.io/keywords: |
+        - ethereum
+        - validator
+        - kubernetes
+        - helm
+        - lighthouse
+        - geth
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Source
+          url: https://github.com/waTeim/k8ev-kit/eth-validator
+    apiVersion: v2
+    appVersion: 2.3.1
+    created: "2025-08-23T04:30:30.85401611Z"
+    description: Deploy an Ethereum validator on Kubernetes
+    digest: 2d887f593f80c7302e9b8024386ae811f317c3fae4d2ffab92153ad1c0aef97a
+    name: eth-validator
+    type: application
+    urls:
+    - https://wateim.github.io/helm-charts/eth-validator-1.4.4.tgz
+    version: 1.4.4
+  siren:
+  - annotations:
+      artifacthub.io/displayName: Siren (Dashboard) for Ethereum Validators
+      artifacthub.io/keywords: |
+        - ethereum
+        - validator
+        - kubernetes
+        - helm
+        - siren
+        - lighthouse
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Source
+          url: https://github.com/waTeim/k8ev-kit/siren
+        - name: Upstream (Siren)
+          url: https://github.com/sigp/siren
+    apiVersion: v2
+    appVersion: 3.0.4
+    created: "2025-08-23T04:30:30.854518137Z"
+    description: Deploy Siren on Kubernetes
+    digest: 2d0dc7200235bd20ad5118cf6da1d97e975c0d0e3d17d94815838c2bba67d70a
+    name: siren
+    type: application
+    urls:
+    - https://wateim.github.io/helm-charts/siren-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-08-23T04:30:30.853086265Z"
