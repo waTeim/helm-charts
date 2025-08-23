@@ -1,4 +1,4 @@
-# waTeim Helm Charts
+# Helm Charts
 
 This repository hosts packaged [Helm](https://helm.sh/) charts for the `waTeim` projects.
 Charts are published automatically to this repository when changes are merged into the
