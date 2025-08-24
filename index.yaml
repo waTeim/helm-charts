@@ -19,7 +19,7 @@ entries:
           url: https://github.com/waTeim/k8ev-kit
     apiVersion: v2
     appVersion: 2.3.1
-    created: "2025-08-23T19:06:57.824457062Z"
+    created: "2025-08-24T03:34:07.584383168Z"
     description: Deploy an Ethereum validator on Kubernetes
     digest: 6c613ff1d74d5d13d29d287c37bbd6e36a6ba40db130a543f342511e2ff7c4c4
     home: https://github.com/waTeim/k8ev-kit/tree/master/eth-validator
@@ -45,7 +45,7 @@ entries:
           url: https://github.com/waTeim/k8ev-kit/eth-validator
     apiVersion: v2
     appVersion: 2.3.1
-    created: "2025-08-23T19:06:57.823736727Z"
+    created: "2025-08-24T03:34:07.58365699Z"
     description: Deploy an Ethereum validator on Kubernetes
     digest: 2d887f593f80c7302e9b8024386ae811f317c3fae4d2ffab92153ad1c0aef97a
     name: eth-validator
@@ -66,12 +66,41 @@ entries:
       artifacthub.io/license: MIT
       artifacthub.io/links: |
         - name: Chart source
+          url: https://github.com/waTeim/k8ev-kit/tree/master/siren
+        - name: Upstream (Siren)
+          url: https://github.com/sigp/siren
+    apiVersion: v2
+    appVersion: 3.0.4
+    created: "2025-08-24T03:34:07.585796599Z"
+    description: Deploy Siren on Kubernetes
+    digest: 8680841cabc28a5295a4cb6cabca8ecf1c849a56a0e500c6989b938aad9d76c8
+    home: https://github.com/waTeim/k8ev-kit/tree/master/siren
+    name: siren
+    sources:
+    - https://github.com/waTeim/k8ev-kit/tree/master/siren
+    - https://github.com/sigp/siren
+    type: application
+    urls:
+    - https://wateim.github.io/helm-charts/siren-1.0.2.tgz
+    version: 1.0.2
+  - annotations:
+      artifacthub.io/displayName: Siren (Dashboard) for Ethereum Validators
+      artifacthub.io/keywords: |
+        - ethereum
+        - validator
+        - kubernetes
+        - helm
+        - siren
+        - lighthouse
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Chart source
           url: https://github.com/waTeim/k8ev-kit/tree/master/charts/siren
         - name: Upstream (Siren)
           url: https://github.com/sigp/siren
     apiVersion: v2
     appVersion: 3.0.4
-    created: "2025-08-23T19:06:57.825349572Z"
+    created: "2025-08-24T03:34:07.585300966Z"
     description: Deploy Siren on Kubernetes
     digest: 9ce27d785d955bd841a365bd7cadd19b8ad2fcbe44837e66d1abbe5041651bf5
     home: https://github.com/waTeim/k8ev-kit/tree/master/siren
@@ -100,7 +129,7 @@ entries:
           url: https://github.com/sigp/siren
     apiVersion: v2
     appVersion: 3.0.4
-    created: "2025-08-23T19:06:57.824890378Z"
+    created: "2025-08-24T03:34:07.584858292Z"
     description: Deploy Siren on Kubernetes
     digest: 2d0dc7200235bd20ad5118cf6da1d97e975c0d0e3d17d94815838c2bba67d70a
     name: siren
@@ -108,4 +137,4 @@ entries:
     urls:
     - https://wateim.github.io/helm-charts/siren-1.0.0.tgz
     version: 1.0.0
-generated: "2025-08-23T19:06:57.822894372Z"
+generated: "2025-08-24T03:34:07.582736246Z"
